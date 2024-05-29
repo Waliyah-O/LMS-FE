@@ -1,0 +1,2 @@
+export const SUSPEND_TRUE = 'SUSPEND_TRUE';
+export const SUSPEND_FALSE = 'SUSPEND_FALSE';

@@ -1,0 +1,24 @@
+.dashboard-side-spacing {
+  overflow-y: scroll;
+  text-wrap:  nowrap;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  @include screen("small") {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  @include minScreen("medium") {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  @include minScreen("laptop") {
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+  }
+  @include minScreen("largeLaptop") {
+    padding-left: 11.5rem;
+    padding-right: 11.5rem;
+  }
+  
+}
